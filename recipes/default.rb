@@ -38,7 +38,6 @@ bash 'install_requirements' do
   EOH
 end
 
-
 bash 'install_default_jre' do
   code <<-EOH
     sudo apt-get -y install default-jre
@@ -53,12 +52,7 @@ bash 'install_default_jdk' do
     EOH
 end
 
-directory '/home/var/lib/jenkins' do
-  owner 'root'
-  group 'root'
-  action :create
-  mode '0777'
-end
+
 
 directory '/home/ubuntu/Downloads' do
   owner 'root'
