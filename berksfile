@@ -1,0 +1,3 @@
+source 'https://supermarket.chef.io'
+
+cookbook 'IT-job-watch-cookbook-env', git: "git@github.com:abzilla786/IT-job-watch-cookbook-env.git"
