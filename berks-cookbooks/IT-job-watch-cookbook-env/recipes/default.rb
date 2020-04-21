@@ -10,10 +10,6 @@ end
 
 package 'python3-pip'
 
-package 'packer'
-
-package 'chefdk'
-
 # templates '/home/ubuntu/requirements.txt' do
 #   source 'requirements.txt.erb'
 # end
